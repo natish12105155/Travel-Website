@@ -1,0 +1,374 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+html
+{
+    scroll-behavior: smooth;
+}
+#home
+{
+    width: 100vw;
+    height: 100vh;
+}
+nav
+{
+    height: 18vh;
+    width: 100vw;
+    position: fixed;
+    top: 0;
+    z-index: 4;
+}
+.nav1
+{
+    height: 70%;
+    width: 100%;
+    background-color: blue ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.nav2
+{
+    height: 30%;
+    width: 100%; 
+    background-color: white;
+}
+.nav2 ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 47px;
+    cursor: pointer;
+    list-style: none; 
+}
+.nav2 ul li:hover
+{
+    color: grey;
+}
+.nav2 ul a{
+    text-decoration: none;
+    color: black;
+}
+.leftnav
+{
+    width: 50%;
+    height: 100%;
+    font-size: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+}
+.rightnav
+{
+    width: 50%; 
+    height: 100%; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.top
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.bottom
+{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+}
+.loco
+{
+    color: yellow;
+    width: 1em;
+    height: 1em;
+}
+.findus
+{
+    width: 4em;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    color: white;
+    margin-right: 15px;
+}
+.input input{
+    width: 15em;
+
+}
+.toll
+{
+    color: white;
+    font-size: 15px;
+}
+.bottom span
+{
+    color: yellow;
+    font-size: 15px;
+    margin-left: 10px;
+}
+.main1
+{
+    width: 100vw;
+    height: 100vh;
+    background-image: url("images/beah.jpg");
+    background-size: 100% 100%;
+    position: relative;
+}
+.bg
+{
+    background-color: rgba(8, 8, 8, 0.368);
+    position: absolute;
+    z-index: 2;
+    width: 100vw;
+    height: 100vh;
+}
+.mainbox
+{
+    width: 100%;
+    height: 100%;
+    z-index: 3;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+}
+.fspan
+{
+    font-size: 34px;
+    color: white;
+}
+.sspan
+{
+    font-size: 55px;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.tspan
+{
+    width: 48%;
+    height: 8%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 50px; 
+    border: 2px solid gray;
+    overflow: hidden;
+}
+.continant
+{
+    width: 25%;
+    height: 100%;
+}
+.continant select
+{
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0px 15px;
+}
+.conutries
+{
+    width: 25%;
+    height: 100%;
+}
+.conutries select
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0px 15px;
+}
+.budget
+{
+    width: 25%;
+    height: 100%;
+}
+.budget select
+{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding: 0px 15px;
+}
+.find{
+    width: 25%;
+    height: 100%;
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+#tour
+{
+    width: 100vw;
+    height: 100vh;
+}
+.bestoff
+{
+    width: 100%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+}
+.best1
+{
+    font-size: 39px;
+    font-weight: 700;
+}
+.best2
+{
+    font-size: 20px;
+}
+.main21
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.main22
+{
+    width: 100%;
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+.img1
+{
+    width: 22%;
+    height: 80%;
+    background-color: rgba(128, 128, 128, 0.367);
+}
+.img11
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/uk.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.uk
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img12
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/italy.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.it
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img13
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/spain.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.sp
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img21
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/turkey.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.tu
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img22
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/japan.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.ja
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img23
+{
+    width: 100%;
+    height: 80%;
+    background-image: url(images/india.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+.in
+{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#aboutus
+{
+    width: 100vw;
+    height: 100vh;
+    position:absolute;
+}
+.bgab
+{
+    background-image: url(images/about.jpg);
+    width: 100%;
+    height: 100%;
+}
